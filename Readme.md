@@ -48,6 +48,8 @@ Codes below at AA/main.m
     legend(p2, 'Expert1','Expert2','Expert3','Expert4');
     
 ![image](https://raw.githubusercontent.com/vincent101/AggregatingAlgorithm/master/Result/2.jpg)
+Note: regret term  = -log(N)/eta = 0.7 in this case     
+Ri(t) = LossL(t)-LossE(t) <= log(N)/eta     
     
     % plot LossEn-LossEnAve
     p3 = plot(1:T, [sLEn-repmat(sLEnAve,N,1)]);
@@ -56,5 +58,6 @@ Codes below at AA/main.m
     legend(p3, 'Expert1','Expert2','Expert3','Expert4');
     
 ![image](https://raw.githubusercontent.com/vincent101/AggregatingAlgorithm/master/Result/3.jpg)
-    
+Note: regret term  = -log(N)/eta = -0.7 in this case    
+Ri(t) = LossL(t)-LossE(t) <= log(N)/eta         
     

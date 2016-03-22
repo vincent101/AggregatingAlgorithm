@@ -47,7 +47,7 @@ Codes below at AA/main.m
     title('Loss of Learner minus Loss of Experts');
     legend(p2, 'Expert1','Expert2','Expert3','Expert4');
     
-![image](https://raw.githubusercontent.com/vincent101/AggregatingAlgorithm/master/Result/2.jpg)
+![image](https://raw.githubusercontent.com/vincent101/AggregatingAlgorithm/master/Result/2.jpg)     
 Note: regret term  = -log(N)/eta = 0.7 in this case     
 Ri(t) = LossL(t)-LossE(t) <= log(N)/eta     
     
@@ -57,7 +57,7 @@ Ri(t) = LossL(t)-LossE(t) <= log(N)/eta
     title('Loss of Expter minus Loss of average of Experts');
     legend(p3, 'Expert1','Expert2','Expert3','Expert4');
     
-![image](https://raw.githubusercontent.com/vincent101/AggregatingAlgorithm/master/Result/3.jpg)
+![image](https://raw.githubusercontent.com/vincent101/AggregatingAlgorithm/master/Result/3.jpg)     
 Note: regret term  = -log(N)/eta = -0.7 in this case    
 Ri(t) = LossL(t)-LossE(t) <= log(N)/eta         
     
